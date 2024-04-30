@@ -1,2 +1,2 @@
 # Fungi
- A website to help people learn about fungi!
+ A [website](https://seankuwamoto.github.io/Fungi) to help people learn about fungi!
