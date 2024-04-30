@@ -20,6 +20,8 @@
         <!-- main scripting and styling -->
         <script src="fungi.js"></script>
         <link rel="stylesheet" href="fungi.css">
+        <link rel="stylesheet" href="checkbox.css">
+
     </head>
     <body>
         <div id="content">
@@ -61,19 +63,38 @@
                 </div>
                 <div class="spacer"></div>
                 <div class="imageContainer">
-                    <img class="figure" src="images/mycelium.jpeg">
+                    <img class="figure" src="images/hyphae.jpeg">
                     <p class="caption"></p>
                 </div>
             </div>
             <div id="informationContainer5" class="container informationContainer">
                 <div class="imageContainer">
-                    <img class="figure" src="images/mycelium.jpeg">
+                    <img class="figure" src="images/plastic.jpeg">
                     <p class="caption"></p>
                 </div>
                 <div class="spacer"></div>
                 <div class="information">
-                    <p class="name">Mushrooms are pretty cool, aren't they?</p>
-                    <p class="description">Donec mollis et ligula a sodales. Sed nec nisl eget ipsum ultrices ultrices eget sed leo. Praesent eros leo, dapibus sed hendrerit dignissim, venenatis lobortis enim. Integer sagittis odio sed nibh suscipit, non laoreet purus congue. Sed dictum placerat pellentesque. Curabitur in venenatis nunc. Phasellus quis nisi fringilla, aliquam purus quis, interdum nulla. Ut finibus iaculis tellus eu pellentesque.</p>
+                    <p class="name">Interactive element</p>
+                    <p class="description">
+                        Which of the following do you think mushrooms can digest and turn into usable soil?
+                        <div class="checkbox-wrapper-47">
+                            <input type="checkbox" name="cb" id="cb-1" />
+                            <label for="cb-1">Living organisms</label>
+                            <br><div style="min-height: 6px;"></div>
+                            <input type="checkbox" name="cb" id="cb-2" />
+                            <label for="cb-2">Dead plants and animals</label>
+                            <br><div style="min-height: 6px;"></div>
+                            <input type="checkbox" name="cb" id="cb-3" />
+                            <label for="cb-3">Cigarette butts</label>
+                            <br><div style="min-height: 6px;"></div>
+                            <input type="checkbox" name="cb" id="cb-4" />
+                            <label for="cb-4">Heavy metals</label>
+                            <br><div style="min-height: 6px;"></div>
+                            <input type="checkbox" name="cb" id="cb-5" />
+                            <label for="cb-5">Plastic</label>
+                        </div>
+                        <button class="check-answers" role="button">Check answers</button>
+                    </p>
                 </div>
                 
             </div>

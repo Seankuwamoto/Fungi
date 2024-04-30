@@ -2,7 +2,9 @@
 
 body {
     background-color: rgb(255, 250, 244);
-    color:rgb(2, 1, 1)
+    color:rgb(2, 1, 1);
+    margin: 0px;
+    font-family: scotch-modern;
 }
 html {
     scroll-behavior: smooth;
@@ -22,6 +24,7 @@ a:visited {
 .name {
     font-family: scotch-modern-display, serif;
     font-size: 2em;
+    margin: 0px;
 }
 .description {
     font-family: scotch-modern, serif;
@@ -62,14 +65,6 @@ a:visited {
     margin-left: 5rem;
     margin-right: 5rem;
 }
-.calculator {
-    width: 25%;
-    height: 60vh;
-    border-radius: 25px !important;
-}
-.dcg-container {
-    border-radius: 6px;
-}
 .figure {
     height: 100%;
     width: 100%;
@@ -100,10 +95,22 @@ a:visited {
     .imageContainer {
         min-width: 50%;
         max-width: 50%;
-        height: auto;
+        max-height: 60vh;
     }
     .informationContainer {
         flex-direction: row;
         width: 80%;
     }
 }
+.check-answers {
+    cursor: pointer;
+    border: 2px solid #000000;
+    background-color: rgb(255, 250, 244);
+    border-radius: 6px;
+    font-family: scotch-modern;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}   
