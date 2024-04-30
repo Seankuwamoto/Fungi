@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set the content div to the right height
     const content = document.getElementById('content');
     content.style.height = size + 'px';
+    onScroll();
 });
 
 // This function also gets called on window resize.
@@ -37,7 +38,7 @@ function onScroll() {
     });
 
     // Positon and scale animations.
-    const animationElements = ['titleContainer', 'informationContainer', 'informationContainer2', 'informationContainer3', 'scrollArrowContainer', 'informationContainer5', 'informationContainer6'];
+    const animationElements = ['titleContainer', 'informationContainer', 'informationContainer2', 'informationContainer3', 'scrollArrowContainer', 'informationContainer5', 'informationContainer6', 'scrollTooltip'];
 
     for (let id of animationElements) {
         const element = document.getElementById(id);

@@ -48,4 +48,11 @@ const animationData = {
         "scale": [1, 1, 1],
         "opacity": [1, 0, 0]
     },
+    "scrollTooltip": {
+        "timings": [0, 3, 100],
+        "relativeTranslate": [[-50, -100], [-50, -125], [-50, -125]],
+        "translate": [[0, 1], [0, 1], [0, 1]],
+        "scale": [1, 1, 1],
+        "opacity": [.6, 0, 0]
+    },
 }
