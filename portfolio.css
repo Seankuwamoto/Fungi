@@ -1,0 +1,109 @@
+
+
+body {
+    background-color: rgb(255, 250, 244);
+    color:rgb(2, 1, 1)
+}
+html {
+    scroll-behavior: smooth;
+}
+#title {
+    font-family: 'Old Standard';
+    font-size: 44pt;
+    letter-spacing: 0.241em;
+    margin: 10px;
+}
+a:link {
+    color: rgb(235, 41, 106);
+}
+a:visited {
+    color: rgb(155,14,1);   
+}
+.name {
+    font-family: scotch-modern-display, serif;
+    font-size: 2em;
+}
+.description {
+    font-family: scotch-modern, serif;
+}
+#content {
+    min-height: 1000px;
+}
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+#titleContainer {
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 1;
+}
+#scrollArrowContainer {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+#scrollArrow {
+    width:64px;
+    height:64px;
+    margin-top:100px;
+    cursor: pointer;
+}
+#DesmosInfo {
+    width: 50%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: translate(0%, 25%);
+}
+.text {
+    font-size: 1.5em;
+    margin-top: 70%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.calculator {
+    width: 25%;
+    height: 60vh;
+    border-radius: 25px !important;
+}
+.dcg-container {
+    border-radius: 6px;
+}
+.figure {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.spacer {
+    min-height: 50px;
+}
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+}
+.caption {
+    font-family: scotch-modern;
+    text-align: center;
+}
+.informationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+@media (min-aspect-ratio: 7/5) {
+    .spacer {
+        min-height: none;
+        min-width: 100px;
+    }
+    .imageContainer {
+        min-width: 50%;
+        max-width: 50%;
+        height: auto;
+    }
+    .informationContainer {
+        flex-direction: row;
+        width: 80%;
+    }
+}
