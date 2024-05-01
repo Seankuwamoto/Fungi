@@ -106,3 +106,23 @@ function smoothstep(t) {
 function scrollDown() {
     window.scrollTo(100, 0);
 }
+
+function checkAnswers() {
+    const IDs = ['cb-1','cb-2','cb-3','cb-4','cb-5'];
+    const goodResponse = document.getElementById('checkbox-positive-response');
+    const badResponse = document.getElementById('checkbox-negative-response');
+    let correctAnswer = true;
+    for (let id of IDs) {
+        let isChecked = document.getElementById(id).checked;
+        if (!isChecked) correctAnswer = false;
+    }
+    if (correctAnswer) {
+        goodResponse.hidden = false;
+        badResponse.hidden = true;
+        enableConfetti();
+    }
+    else {
+        goodResponse.hidden = true;
+        badResponse.hidden = false;
+    }
+}

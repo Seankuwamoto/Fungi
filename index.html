@@ -99,7 +99,9 @@
                             <input type="checkbox" name="cb" id="cb-5" />
                             <label for="cb-5">Plastic</label>
                         </div>
-                        <button class="check-answers" role="button">Check answers</button>
+                        <button class="check-answers" role="button" onclick="checkAnswers()">Check answers</button>
+                        <p id="checkbox-positive-response" hidden>Yep! Every single one of the things listed above can be used as nutrients to grow mushrooms. Isn't that fascinating?</p>
+                        <p id="checkbox-negative-response" hidden>Hmm... You're on the right track. Mushrooms can effectively decompose all of the things you've selected, but there's still more! Can you guess them?</p>
                     </p>
                 </div>
                 
@@ -115,6 +117,8 @@
                     <p class="caption"></p>
                 </div>
             </div>
+            <canvas id="canvas"></canvas>
+            <script src="confetti.js"></script>
         </div>
     </body>
 </html>

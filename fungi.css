@@ -114,3 +114,12 @@ a:visited {
     padding-top: 5px;
     padding-bottom: 5px;
 }   
+canvas {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    cursor: not-allowed;
+    pointer-events: none;
+}
