@@ -71,7 +71,7 @@ a:visited {
     object-fit: cover;
 }
 .spacer {
-    min-height: 50px;
+    min-height: 30px;
 }
 .imageContainer {
     display: flex;
@@ -90,7 +90,7 @@ a:visited {
 @media (min-aspect-ratio: 7/5) {
     .spacer {
         min-height: none;
-        min-width: 100px;
+        min-width: 70px;
     }
     .imageContainer {
         min-width: 50%;
@@ -102,7 +102,7 @@ a:visited {
         width: 80%;
     }
 }
-.check-answers {
+.check-answers, .check-answer {
     cursor: pointer;
     border: 2px solid #000000;
     background-color: rgb(255, 250, 244);

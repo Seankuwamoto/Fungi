@@ -38,6 +38,7 @@
             <div id="scrollTooltip" class="container">
                 <p>Scroll down or click the mushroom to continue!</p>
             </div>
+            <!-- What are mushrooms anyways? -->
             <div id="informationContainer" class="container informationContainer">
                 <div class="information">
                     <p class="name">So what are fungi anyways?</p>
@@ -50,33 +51,160 @@
                 </div>
                 
             </div>
+            <!--Hyphae -->
             <div id="informationContainer2" class="container informationContainer">
                 <div class="imageContainer">
-                    <img class="figure" src="images/mycelium.jpeg">
-                    <p class="caption"></p>
+                    <img class="figure" src="images/hyphae.jpeg">
+                    <p class="caption">Figure 2. Fungal hyphae, microscopic view.</p>
+                    
                 </div>
                 <div class="spacer"></div>
                 <div class="information">
-                    <p class="name">Fungi fungi fungi.</p>
+                    <p class="name">Hyphae.</p>
                     <p class="description">Integer sed turpis ullamcorper, pulvinar lacus vel, malesuada leo. Proin lectus nisl, finibus in rutrum ut, pretium non ex. Fusce eget justo mauris. Cras vitae nisi lectus. Proin fringilla massa lorem, at aliquet sapien euismod volutpat. In ultrices malesuada ipsum, eget convallis dui lacinia eget. Morbi et risus felis. Nulla in arcu pretium, viverra elit nec, mollis ligula. Praesent dictum justo eget tellus aliquet rhoncus.</p>
                 </div>
                 
             </div>
+            <!-- Mycelium -->
             <div id="informationContainer3" class="container informationContainer">
                 <div class="information">
-                    <p class="name">I love mushrooms!</p>
+                    <p class="name">Mycelium!</p>
                     <p class="description">Phasellus varius eros vitae justo dapibus, ac placerat sapien volutpat. Proin a neque sit amet nulla tristique scelerisque. Nullam eget ante facilisis, consectetur leo vel, luctus sapien. Nunc dictum orci at molestie viverra. Suspendisse non velit eu lorem facilisis accumsan. Sed massa tellus, aliquet nec posuere eget, auctor quis quam. Nullam ac justo ac massa tincidunt blandit id a nibh. Sed odio dui, pharetra id iaculis a, luctus nec augue. Curabitur euismod ut neque ac laoreet. In risus nisl, malesuada vel egestas a, bibendum porta quam. </p>
                 </div>
                 <div class="spacer"></div>
                 <div class="imageContainer">
-                    <img class="figure" src="images/hyphae.jpeg">
-                    <p class="caption"></p>
+                    <img class="figure" src="images/mycelium.jpeg">
+                    <p class="caption">Figure 3. A block of soil held together by a mycelium.</p>
                 </div>
             </div>
+            <!-- World's biggest organism -->
+            <div id="informationContainer4" class="container informationContainer">
+                <div class="information">
+                    <p class="name">How big is the world's largest mushroom?</p>
+                    <p class="description">
+                        <div class="checkbox-wrapper-47">
+                            <input type="radio" name="cb" id="cb-1a" />
+                            <label for="cb-1a">1,000m<sup>2</sup></label>
+                            <br><div style="min-height: 6px;"></div>
+                            <input type="radio" name="cb" id="cb-2a" />
+                            <label for="cb-2a">100m<sup>2</sup></label>
+                            <br><div style="min-height: 6px;"></div>
+                            <input type="radio" name="cb" id="cb-3a" />
+                            <label for="cb-3a">2.3 acres</label>
+                            <br><div style="min-height: 6px;"></div>
+                            <input type="radio" name="cb" id="cb-4a" />
+                            <label for="cb-4a">357 acres</label>
+                            <br><div style="min-height: 6px;"></div>
+                            <input type="radio" name="cb" id="cb-5a" />
+                            <label for="cb-5a">2,200 acres</label>
+                        </div>
+                        <button class="check-answer" role="button" onclick="checkAnswer()">Check answer</button>
+                        <p id="radio-positive-response" hidden>Correct! A colony of Honey Fungus (<em>Fig. 4</em>) in the Malheur National Forest in the Blue Mountains of eastern Oregon, U.S. is the largest living organism by area, and is estimated to be around 2,400 years old. Although its fruiting bodies are small yellowish mushrooms, its main biomass (the mycelium) is one large interconnected structure that spans for acres underneath the soil.</p>
+                        <p id="radio-negative-response" hidden>Not quite... try bigger!</p>
+                    </p>
+                </div>
+                <div class="spacer"></div>
+                <div class="imageContainer">
+                    <img class="figure" src="images/honey_mushrooms.webp">
+                    <p class="caption">Figure 4. The fruting bodies of <em>Armillaria mellea</em>, also known as Honey Fungi.</p>
+                </div>
+            </div>
+            <!-- About fungi: types of fungi -->
             <div id="informationContainer5" class="container informationContainer">
                 <div class="imageContainer">
+                    <img class="figure" src="images/hyphae.jpeg">
+                    <p class="caption">Figure 5. Fungal hyphae, microscopic view.</p>
+                    
+                </div>
+                <div class="spacer"></div>
+                <div class="information">
+                    <p class="name">Types of Fungi - Overview</p>
+                    <p class="description">Integer sed turpis ullamcorper, pulvinar lacus vel, malesuada leo. Proin lectus nisl, finibus in rutrum ut, pretium non ex. Fusce eget justo mauris. Cras vitae nisi lectus. Proin fringilla massa lorem, at aliquet sapien euismod volutpat. In ultrices malesuada ipsum, eget convallis dui lacinia eget. Morbi et risus felis. Nulla in arcu pretium, viverra elit nec, mollis ligula. Praesent dictum justo eget tellus aliquet rhoncus.</p>
+                </div>
+            </div>
+            <!-- Chytrids -->
+            <div id="informationContainer6" class="container informationContainer">
+                <div class="imageContainer">
+                    <img class="figure" src="images/zoospore.jpeg">
+                    <p class="caption">Figure 6. A microscopic zoospore</p>
+                    
+                </div>
+                <div class="spacer"></div>
+                <div class="information">
+                    <p class="name">Types of Fungi - Chytrids</p>
+                    <p class="description">Integer sed turpis ullamcorper, pulvinar lacus vel, malesuada leo. Proin lectus nisl, finibus in rutrum ut, pretium non ex. Fusce eget justo mauris. Cras vitae nisi lectus. Proin fringilla massa lorem, at aliquet sapien euismod volutpat. In ultrices malesuada ipsum, eget convallis dui lacinia eget. Morbi et risus felis. Nulla in arcu pretium, viverra elit nec, mollis ligula. Praesent dictum justo eget tellus aliquet rhoncus.</p>
+                </div>
+                
+            </div>
+            <!-- Zygomycetes -->
+            <div id="informationContainer7" class="container informationContainer">
+                <div class="information">
+                    <p class="name">Types of Fungi - Zygomycetes</p>
+                    <p class="description">Phasellus varius eros vitae justo dapibus, ac placerat sapien volutpat. Proin a neque sit amet nulla tristique scelerisque. Nullam eget ante facilisis, consectetur leo vel, luctus sapien. Nunc dictum orci at molestie viverra. Suspendisse non velit eu lorem facilisis accumsan. Sed massa tellus, aliquet nec posuere eget, auctor quis quam. Nullam ac justo ac massa tincidunt blandit id a nibh. Sed odio dui, pharetra id iaculis a, luctus nec augue. Curabitur euismod ut neque ac laoreet. In risus nisl, malesuada vel egestas a, bibendum porta quam. </p>
+                </div>
+                <div class="spacer"></div>
+                <div class="imageContainer">
+                    <img class="figure" src="images/zygomycetes.jpeg">
+                    <p class="caption">Figure 3. A block of soil held together by a mycelium.</p>
+                </div>
+            </div>
+            <!-- Glomeromycetes -->
+            <div id="informationContainer8" class="container informationContainer">
+                <div class="imageContainer">
+                    <img class="figure" src="images/glomeromycetes.png">
+                    <p class="caption">Figure 2. Fungal hyphae, microscopic view.</p>
+                    
+                </div>
+                <div class="spacer"></div>
+                <div class="information">
+                    <p class="name">Types of Fungi - Glomeromycetes</p>
+                    <p class="description">Integer sed turpis ullamcorper, pulvinar lacus vel, malesuada leo. Proin lectus nisl, finibus in rutrum ut, pretium non ex. Fusce eget justo mauris. Cras vitae nisi lectus. Proin fringilla massa lorem, at aliquet sapien euismod volutpat. In ultrices malesuada ipsum, eget convallis dui lacinia eget. Morbi et risus felis. Nulla in arcu pretium, viverra elit nec, mollis ligula. Praesent dictum justo eget tellus aliquet rhoncus.</p>
+                </div>
+                
+            </div>
+            <!-- Ascomycetes -->
+            <div id="informationContainer9" class="container informationContainer">
+                <div class="information">
+                    <p class="name">Types of Fungi - Ascomycetes</p>
+                    <p class="description">Phasellus varius eros vitae justo dapibus, ac placerat sapien volutpat. Proin a neque sit amet nulla tristique scelerisque. Nullam eget ante facilisis, consectetur leo vel, luctus sapien. Nunc dictum orci at molestie viverra. Suspendisse non velit eu lorem facilisis accumsan. Sed massa tellus, aliquet nec posuere eget, auctor quis quam. Nullam ac justo ac massa tincidunt blandit id a nibh. Sed odio dui, pharetra id iaculis a, luctus nec augue. Curabitur euismod ut neque ac laoreet. In risus nisl, malesuada vel egestas a, bibendum porta quam. </p>
+                </div>
+                <div class="spacer"></div>
+                <div class="imageContainer">
+                    <img class="figure" src="images/ascomycetes.webp">
+                    <p class="caption">Figure 3. A block of soil held together by a mycelium.</p>
+                </div>
+            </div>
+            <!-- Basidiomycetes -->
+            <div id="informationContainer10" class="container informationContainer">
+                <div class="imageContainer">
+                    <img class="figure" src="images/basidomycetes.jpeg">
+                    <p class="caption">Figure 2. Fungal hyphae, microscopic view.</p>
+                    
+                </div>
+                <div class="spacer"></div>
+                <div class="information">
+                    <p class="name">Types of Fungi - Basidiomycetes</p>
+                    <p class="description">Integer sed turpis ullamcorper, pulvinar lacus vel, malesuada leo. Proin lectus nisl, finibus in rutrum ut, pretium non ex. Fusce eget justo mauris. Cras vitae nisi lectus. Proin fringilla massa lorem, at aliquet sapien euismod volutpat. In ultrices malesuada ipsum, eget convallis dui lacinia eget. Morbi et risus felis. Nulla in arcu pretium, viverra elit nec, mollis ligula. Praesent dictum justo eget tellus aliquet rhoncus.</p>
+                </div>
+                
+            </div>
+            <!-- Fungi: saving the world -->
+            <div id="informationContainer11" class="container informationContainer">
+                <div class="information">
+                    <p class="name">Fungi as composters.</p>
+                    <p class="description">Phasellus varius eros vitae justo dapibus, ac placerat sapien volutpat. Proin a neque sit amet nulla tristique scelerisque. Nullam eget ante facilisis, consectetur leo vel, luctus sapien. Nunc dictum orci at molestie viverra. Suspendisse non velit eu lorem facilisis accumsan. Sed massa tellus, aliquet nec posuere eget, auctor quis quam. Nullam ac justo ac massa tincidunt blandit id a nibh. Sed odio dui, pharetra id iaculis a, luctus nec augue. Curabitur euismod ut neque ac laoreet. In risus nisl, malesuada vel egestas a, bibendum porta quam. </p>
+                </div>
+                <div class="spacer"></div>
+                <div class="imageContainer">
+                    <img class="figure" src="images/mycelium.jpeg">
+                    <p class="caption">Figure 3. A block of soil held together by a mycelium.</p>
+                </div>
+            </div>
+            <!-- Interactive element: digestion -->
+            <div id="informationContainer12" class="container informationContainer">
+                <div class="imageContainer">
                     <img class="figure" src="images/plastic.jpeg">
-                    <p class="caption"></p>
+                    <p class="caption">Figure 5. Fungi digesting... something. What could it be?</p>
                 </div>
                 <div class="spacer"></div>
                 <div class="information">
@@ -84,20 +212,20 @@
                     <p class="description">
                         Which of the following do you think mushrooms can digest and turn into usable soil?
                         <div class="checkbox-wrapper-47">
-                            <input type="checkbox" name="cb" id="cb-1" />
-                            <label for="cb-1">Living organisms</label>
+                            <input type="checkbox" name="cb" id="cb-1b" />
+                            <label for="cb-1b">Living organisms</label>
                             <br><div style="min-height: 6px;"></div>
-                            <input type="checkbox" name="cb" id="cb-2" />
-                            <label for="cb-2">Dead plants and animals</label>
+                            <input type="checkbox" name="cb" id="cb-2b" />
+                            <label for="cb-2b">Dead plants and animals</label>
                             <br><div style="min-height: 6px;"></div>
-                            <input type="checkbox" name="cb" id="cb-3" />
-                            <label for="cb-3">Cigarette butts</label>
+                            <input type="checkbox" name="cb" id="cb-3b" />
+                            <label for="cb-3b">Cigarette butts</label>
                             <br><div style="min-height: 6px;"></div>
-                            <input type="checkbox" name="cb" id="cb-4" />
-                            <label for="cb-4">Heavy metals</label>
+                            <input type="checkbox" name="cb" id="cb-4b" />
+                            <label for="cb-4b">Heavy metals</label>
                             <br><div style="min-height: 6px;"></div>
-                            <input type="checkbox" name="cb" id="cb-5" />
-                            <label for="cb-5">Plastic</label>
+                            <input type="checkbox" name="cb" id="cb-5b" />
+                            <label for="cb-5b">Plastic</label>
                         </div>
                         <button class="check-answers" role="button" onclick="checkAnswers()">Check answers</button>
                         <p id="checkbox-positive-response" hidden>Yep! Every single one of the things listed above can be used as nutrients to grow mushrooms. Isn't that fascinating?</p>
@@ -106,7 +234,20 @@
                 </div>
                 
             </div>
-            <div id="informationContainer6" class="container informationContainer">
+            <!-- About the lab and impacts on the world -->
+            <div id="informationContainer13" class="container informationContainer">
+                <div class="information">
+                    <p class="name">Fungi lab: can oyster mushrooms digest acidic foods?</p>
+                    <p class="description">Phasellus varius eros vitae justo dapibus, ac placerat sapien volutpat. Proin a neque sit amet nulla tristique scelerisque. Nullam eget ante facilisis, consectetur leo vel, luctus sapien. Nunc dictum orci at molestie viverra. Suspendisse non velit eu lorem facilisis accumsan. Sed massa tellus, aliquet nec posuere eget, auctor quis quam. Nullam ac justo ac massa tincidunt blandit id a nibh. Sed odio dui, pharetra id iaculis a, luctus nec augue. Curabitur euismod ut neque ac laoreet. In risus nisl, malesuada vel egestas a, bibendum porta quam. </p>
+                </div>
+                <div class="spacer"></div>
+                <div class="imageContainer">
+                    <img class="figure" src="images/mycelium.jpeg">
+                    <p class="caption">Figure 3. A block of soil held together by a mycelium.</p>
+                </div>
+            </div>
+            <!-- Thank you & sources: That's all for now -->
+            <div id="informationContainer14" class="container informationContainer">
                 <div class="information">
                     <p class="name">That's all for now.</p>
                     <p class="description">Mauris suscipit, felis non laoreet commodo, purus odio congue eros, et congue dui erat non mauris. Nunc interdum, quam sit amet aliquet euismod, nisl risus dapibus arcu, id viverra augue lorem in sapien. Phasellus eget orci varius, rhoncus leo sed, tincidunt magna. Nulla lacus purus, tincidunt id fringilla sed, hendrerit eget dolor. Vestibulum at hendrerit erat, in accumsan magna.</p>
@@ -117,6 +258,7 @@
                     <p class="caption"></p>
                 </div>
             </div>
+
             <canvas id="canvas"></canvas>
             <script src="confetti.js"></script>
         </div>

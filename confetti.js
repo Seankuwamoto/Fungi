@@ -3,6 +3,7 @@ let H = window.innerHeight;
 const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
 const maxConfettis = 150;
+const numIterations = 300;
 const particles = [];
 let drawing = false;
 let loopCount = 0;
@@ -56,7 +57,7 @@ function enableConfetti() {
 function Draw() {
     if (!drawing) return;
     loopCount++;
-    if (loopCount > 1000) {
+    if (loopCount > numIterations) {
         drawing = false;
         loopCount = 0;
         context.clearRect(0, 0, W, window.innerHeight);

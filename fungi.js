@@ -38,7 +38,25 @@ function onScroll() {
     });
 
     // Positon and scale animations.
-    const animationElements = ['titleContainer', 'informationContainer', 'informationContainer2', 'informationContainer3', 'scrollArrowContainer', 'informationContainer5', 'informationContainer6', 'scrollTooltip'];
+    const animationElements = [
+        'titleContainer',
+        'informationContainer',
+        'informationContainer2',
+        'informationContainer4',
+        'informationContainer3',
+        'scrollArrowContainer',
+        'informationContainer5',
+        'informationContainer6',
+        'informationContainer7',
+        'informationContainer8',
+        'informationContainer9',
+        'informationContainer10',
+        'informationContainer11',
+        'informationContainer12',
+        'informationContainer13',
+        'informationContainer14',
+        'scrollTooltip'
+    ];
 
     for (let id of animationElements) {
         const element = document.getElementById(id);
@@ -107,8 +125,22 @@ function scrollDown() {
     window.scrollTo(100, 0);
 }
 
+function checkAnswer() {
+    const goodResponse = document.getElementById('radio-positive-response');
+    const badResponse = document.getElementById('radio-negative-response');
+    if (document.getElementById('cb-5a').checked == true) {
+        goodResponse.hidden = false;
+        badResponse.hidden = true;
+        enableConfetti();
+    }
+    else {
+        goodResponse.hidden = true;
+        badResponse.hidden = false;
+    }
+}
+
 function checkAnswers() {
-    const IDs = ['cb-1','cb-2','cb-3','cb-4','cb-5'];
+    const IDs = ['cb-1b','cb-2b','cb-3b','cb-4b','cb-5b'];
     const goodResponse = document.getElementById('checkbox-positive-response');
     const badResponse = document.getElementById('checkbox-negative-response');
     let correctAnswer = true;

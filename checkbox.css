@@ -3,6 +3,10 @@
     display: none;
     visibility: hidden;
   }
+  .checkbox-wrapper-47 input[type="radio"] {
+    display: none;
+    visibility: hidden;
+  }
 
   .checkbox-wrapper-47 label {
     position: relative;
@@ -32,6 +36,17 @@
     color: #0f5229;
   }
   .checkbox-wrapper-47 input[type=checkbox]:checked + label:before {
+    top: 0;
+    width: 100%;
+    height: 2em;
+    background: #b7e6c9;
+    border-color: #2cbc63;
+  }
+  .checkbox-wrapper-47 input[type=radio]:checked + label {
+    padding-left: 1em;
+    color: #0f5229;
+  }
+  .checkbox-wrapper-47 input[type=radio]:checked + label:before {
     top: 0;
     width: 100%;
     height: 2em;
