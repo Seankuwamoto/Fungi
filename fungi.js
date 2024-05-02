@@ -63,7 +63,7 @@ function onScroll() {
         // Name shortening
         let dat = animationData[id];
         if (id == "titleContainer") {
-            if (window.innerHeight/window.innerWidth >= 1.3) {
+            if (window.innerHeight/window.innerWidth >= 1) {
                 dat.scale = [3, 3, 1, 1];
             }
             else {
