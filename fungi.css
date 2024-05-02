@@ -76,16 +76,19 @@ a:visited {
 .imageContainer {
     display: flex;
     flex-direction: column;
+    max-width: 70%;
+    margin:auto;
 }
 .caption {
     font-family: scotch-modern;
     text-align: center;
+    margin-bottom: 0px;
 }
 .informationContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 60%;
+    width: 80%;
 }
 @media (min-aspect-ratio: 7/5) {
     .spacer {
