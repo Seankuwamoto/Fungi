@@ -61,7 +61,15 @@ function onScroll() {
     for (let id of animationElements) {
         const element = document.getElementById(id);
         // Name shortening
-        const dat = animationData[id];
+        let dat = animationData[id];
+        if (id == "titleContainer") {
+            if (window.innerHeight/window.innerWidth >= 1.3) {
+                dat.scale = [3, 3, 1, 1];
+            }
+            else {
+                dat.scale = [2, 2, 0.5, 0.5];
+            }
+        }
         let timingIndex = 0;
         let timing = 0;
         if (percentComplete == 100) {
@@ -119,10 +127,6 @@ function smoothstep(t) {
     if (t >= 1) return 1;
     // return t * t * t * (6 * t * t - 15 * t + 10);   
     return t * t * (3 - 2 * t);
-}
-
-function scrollDown() {
-    window.scrollTo(100, 0);
 }
 
 function checkAnswer() {

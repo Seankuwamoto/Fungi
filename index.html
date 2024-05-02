@@ -4,6 +4,7 @@
     <head>
         <title>Fungi</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- p5 library for graphics -->
         <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
@@ -33,7 +34,7 @@
             </div>
             <!-- stolen from Jaiden's portfolio website -->
             <div id="scrollArrowContainer" class="container">
-                <img src="images/mushroom.png" id="scrollArrow" onclick="window.scrollTo(0,0.175*10000);">
+                <img src="images/mushroom.png" id="scrollArrow" onclick="window.scrollTo(0,0.17 * (document.body.scrollHeight - window.innerHeight));">
             </div>
             <div id="scrollTooltip" class="container">
                 <p>Scroll down or click the mushroom to continue!</p>
@@ -112,8 +113,8 @@
             <!-- About fungi: types of fungi -->
             <div id="informationContainer5" class="container informationContainer">
                 <div class="imageContainer">
-                    <img class="figure" src="images/hyphae.jpeg">
-                    <p class="caption">Figure 5. Fungal hyphae, microscopic view.</p>
+                    <img class="figure" src="images/types.jpeg">
+                    <p class="caption">Figure 5. <em>Favolaschia calocera</em></p>
                     
                 </div>
                 <div class="spacer"></div>
