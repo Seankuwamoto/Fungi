@@ -100,6 +100,9 @@ a:visited {
         max-width: 50%;
         max-height: 60vh;
     }
+    .figure {
+        max-height: 60vh;
+    }
     .informationContainer {
         flex-direction: row;
         width: 80%;
