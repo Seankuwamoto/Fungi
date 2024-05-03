@@ -55,6 +55,7 @@ function onScroll() {
         'informationContainer12',
         'informationContainer13',
         'informationContainer14',
+        'informationContainer15',
         'scrollTooltip'
     ];
 
