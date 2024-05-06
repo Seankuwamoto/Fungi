@@ -163,3 +163,7 @@ function checkAnswers() {
         badResponse.hidden = false;
     }
 }
+
+function jumpTo(name) {
+    window.scrollTo(0,(animationData[name].timings[2] / 100) * (document.body.scrollHeight - window.innerHeight));
+}
