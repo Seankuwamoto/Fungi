@@ -21,6 +21,12 @@ html {
     text-decoration: underline;
     cursor: pointer;
 }
+a:link {
+    color: rgb(138, 90, 0);
+}
+a:visited {
+    color: rgb(93, 60, 0);
+}
 .name {
     font-family: scotch-modern-display, serif;
     font-size: 2em;
@@ -39,6 +45,7 @@ html {
     transform: translate(-50%, -50%);
     opacity: 0;
 }
+
 #titleContainer {
     transform: translate(-50%, -50%) scale(2);
     opacity: 1;
