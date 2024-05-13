@@ -19,6 +19,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set the content div to the right height
     const content = document.getElementById('content');
     content.style.height = size + 'px';
+    const captions = document.getElementsByClassName('caption');
+    for (let caption of captions) {
+        caption.classList.add('jump');
+        caption.onclick = function() { jumpTo('informationContainer15') };
+    }
     onScroll();
 });
 
