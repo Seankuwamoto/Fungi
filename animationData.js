@@ -106,10 +106,10 @@ const animationData = {
     },
     "informationContainer15": {
         "timings": [0, 92, 96, 100],
-        "relativeTranslate": [[-50, 50], [-50, 50], [-50, -50], [-50, -150]],
+        "relativeTranslate": [[-50, 50], [-50, 50], [-50, -50], [-50, -60]],
         "translate": [[0, 0], [0, 0], [0, 0], [0, 0]],
         "scale": [1, 1, 1, 1],
-        "opacity": [0, 0, 1, 0]
+        "opacity": [0, 0, 1, 0.7]
     },
     "scrollArrowContainer": {
         "timings": [0, 3, 100],
