@@ -1,3 +1,12 @@
+// GIves a warning if on mobile
+if (navigator.userAgentData.mobile) {
+    window.alert("You have been detected on a mobile device. This website was designed for desktop use.");
+    console.warn("User is browsing on mobile.")
+}
+else {
+    console.log("User is not browsing on mobile.")
+}
+
 // Scroll handlers
 document.addEventListener('scroll', onScroll);
 document.addEventListener('mousemove', onMouseMove);
